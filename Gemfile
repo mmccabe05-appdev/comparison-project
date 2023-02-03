@@ -13,6 +13,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'sprockets', '< 4'
 gem 'sassc-rails'
 gem 'faker'
+gem 'pg'
 
 group :development do
   gem 'htmlbeautifier'
@@ -32,6 +33,8 @@ group :development, :test do
   gem 'sqlite3', '~> 1.4.1'
   gem 'table_print'
   gem 'web_git', github: 'firstdraft/web_git'
+  gem 'pg'
+
 end
 
 group :development do
