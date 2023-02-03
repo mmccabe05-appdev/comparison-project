@@ -1,6 +1,6 @@
 # Users creation
 
-rails generate devise user username:string comparisons_count:integer favorite_neighborhoods_count:integer
+rails generate devise user username comparisons_count:integer favorite_neighborhoods_count:integer
 
 
     ## User associations
